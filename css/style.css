@@ -10,9 +10,7 @@ body {
   box-sizing: border-box;
 }
 .site-wrapper {
-/*  min-width: 1370px;
-  padding-right: 219px;
-  padding-left: 219px;*/
+
   width: 100%;
 
   background-color: #ffffff;
@@ -25,8 +23,6 @@ body {
   position: relative;
 width: 90%;
   margin: 0 auto;
-
- /* outline: 1px solid red;*/
 }
 .clearfix:after {
   display: table;
@@ -40,7 +36,8 @@ width: 90%;
   margin-bottom: 40px;
 
   width: auto;
- background-image: url("../img/top.jpg");
+
+   background-image: url("../img/top.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -205,20 +202,21 @@ width: 90%;
 .advantages {
   display: flex;
   flex-direction: row;
-justify-content: space-around;
 
   flex-wrap: wrap;
   margin-bottom: 40px;
+}
+.advantages_item {
+
+width: 400px;
+margin-right: auto;
+margin-bottom: 20px;
 }
 .advantages p {
      padding: 0;
   margin: 0;
 }
-.advantages_item {
-width: 400px;
-margin-right: auto;
-margin-bottom: 20px;
-}
+
 .advantages_item-heading {
   font-size: 26px;
   font-weight: 700;
@@ -248,24 +246,24 @@ margin-bottom: 20px;
 }
 .portfolio {
   display: flex;
+ 
   flex-direction: row;
-  flex-align: start;
-justify-content: start;
-
+justify-content: flex-start;
   margin-bottom: 40px;
 
-  align-content: stretch;
   flex-wrap: wrap;
 /*  outline: 1px solid red;*/
 }
 .portfolio_img {
 /*  outline: 1px solid green;*/
-
+margin-right: 5px;
 
  
 }
 .portfolio_content {
-width: 400px;
+/*width: 400px;*/
+width: 50%;
+
 /*outline: 1px solid black;*/
 }
 .portfolio p {
