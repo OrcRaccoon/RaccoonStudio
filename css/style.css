@@ -206,7 +206,7 @@ width: 90%;
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
-.advantages_item {
+.advantages__item {
 
 width: 400px;
 margin-right: auto;
@@ -217,7 +217,7 @@ margin-bottom: 20px;
   margin: 0;
 }
 
-.advantages_item-heading {
+.advantages__item-heading {
   font-size: 26px;
   font-weight: 700;
   line-height: 26px;
@@ -226,17 +226,17 @@ margin-bottom: 20px;
 
   color: #465065;
 }
-.advantages_item-heading-punkt {
+.advantages__item-heading-punkt {
   color: #f0454c;
 }
-.advantages_item-primary-text {
+.advantages__item-primary-text {
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
 
   color: #9aa0ab;
 }
-.advantages_item-link {
+.advantages__item-link {
   font-size: 14px;
   font-weight: 400;
 
@@ -254,13 +254,13 @@ justify-content: flex-start;
   flex-wrap: wrap;
 /*  outline: 1px solid red;*/
 }
-.portfolio_img {
+.portfolio__img {
 /*  outline: 1px solid green;*/
 margin-right: 5px;
 
  
 }
-.portfolio_content {
+.portfolio__content {
 /*width: 400px;*/
 width: 50%;
 
@@ -271,7 +271,7 @@ width: 50%;
      padding: 0;
   margin: 0;
 }
-.portfolio_content-heading {
+.portfolio__content-heading {
   font-size: 40px;
   font-weight: 700;
 
@@ -279,22 +279,22 @@ width: 50%;
 
   color: #314a5b;
 }
-.portfolio_content-heading-punkt {
+.portfolio__content-heading-punkt {
   color: #f0454c;
 }
-.portfolio_content-primary-text {
+.portfolio__content-primary-text {
   color: #314a5b;
 font-size: 16px;
 font-weight: 400;
 line-height: 20px;
 }
-.portfolio_content-secondary-text {
+.portfolio__content-secondary-text {
   color: #9aa0ab;
 font-size: 15px;
 font-weight: 400;
 line-height: 22px;
 }
-.portfolio_content-link {
+.portfolio__content-link {
   color: #f0454c;
 font-size: 14px;
 font-weight: 400;
@@ -308,11 +308,11 @@ width: 100%;
    padding: 0;
   margin: 0;
 }
-.team_intro {
+.team__intro {
   display: block;
   width: 100%;
 }
-.team_intro-heading {
+.team__intro-heading {
   font-size: 32px;
 font-weight: 700;
 line-height: 54px;
@@ -320,42 +320,42 @@ text-transform: uppercase;
 color: #314a5b;
 width: 100%;
 }
-.team_intro-punkt {
+.team__intro-punkt {
   color: #f0454c;
 }
-.team_intro-secondary-text {
+.team__intro-secondary-text {
   color: #9aa0ab;
 font-size: 16px;
 font-weight: 400;
 line-height: 20px;
 width: 100%;
 }
-.team_members {
+.team__members {
   display: block;
   width: 100%;
 }
-.team_members-item {
+.team__members-item {
   display: block;
   float: left;
 
   width: 30%;
   margin-right: 3%;
 }
-.team_members-item-img {
+.team__members-item-img {
   display: block;
   float: left;
 width: 120px;
 height: 120px;
   
 }
-.team_members-item-descr {
+.team__members-item-descr {
   display: block;
   float: left;
 
   width: 50%;
   height: 50%;
 }
-.team_members-item-heading {
+.team__members-item-heading {
   color: #314a5b;
 
 font-size: 22px;
@@ -363,21 +363,21 @@ font-weight: 700;
 line-height: 54px;
 text-transform: uppercase;
 }
-.team_members-item-primary-text {
+.team__members-item-primary-text {
   color: #f0454c;
 
 font-size: 14px;
 font-weight: 400;
 line-height: 20px;
 }
-.team_members-item-secondary-text {
+.team__members-item-secondary-text {
   color: #9aa0ab;
 
 font-size: 14px;
 font-weight: 400;
 line-height: 20px;
 }
-.team_members-more {
+.team__members-more {
   display: block;
   float: right;
   color: #f0454c;
@@ -387,25 +387,25 @@ font-weight: 400;
 line-height: 20px;
 text-transform: uppercase;
 }
-.page_footer {
+.page__footer {
   margin-top: 40px;
   width: 100%;
 }
-.page_footer p {
+.page__footer p {
   padding: 0;
   margin: 0;
 }
-.page_footer-social {
+.page__footer-social {
   display: block;
   float: left;
   width: 50%;
 }
-.page_footer-copyright {
+.page__footer-copyright {
   display: block;
   float: right;
    width: 50%;
 }
-.page_footer-copyright-text {
+.page__footer-copyright-text {
   color: #b9c0c6;
 text-align: right;
 font-size: 13px;
