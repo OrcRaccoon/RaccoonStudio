@@ -433,9 +433,14 @@ margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-padding-right: 1%;
   align-items: center;
-width: 10%;
+
+}
+.page__footer-social-twitter,
+.page__footer-social-instagram, 
+.page__footer-social-facebook,
+.page__footer-social-google {
+padding-right: 10%;
 }
 .page__footer-copyright {
 
