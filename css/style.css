@@ -14,8 +14,7 @@ body {
   width: 100%;
 
   background-color: #ffffff;
-  -webkit-box-shadow: -2px -2px 23px 4px rgba(191,201,200,0.74);
-  box-shadow: -2px -2px 23px 4px rgba(191,201,200,0.74);
+
 }
 .content-wrapper {
   position: relative;
@@ -415,22 +414,32 @@ body {
 .page__footer {
   width: 100%;
   margin-top: 40px;
+
 }
 .page__footer p {
   margin: 0;
   padding: 0;
 }
-.page__footer-social {
-  display: block;
-  float: left;
+.page__footer-content-wrapper {
+display: flex;
+margin-right: 5%;
+margin-left: 5%;
+margin-bottom: 10px;
 
-  width: 50%;
+  justify-content: space-between;
+  
+}
+.page__footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+padding-right: 1%;
+  align-items: center;
+width: 10%;
 }
 .page__footer-copyright {
-  display: block;
-  float: right;
 
-  width: 50%;
+
 }
 .page__footer-copyright-text {
   font-size: 13px;
