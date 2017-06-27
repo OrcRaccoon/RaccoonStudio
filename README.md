@@ -1,3 +1,3 @@
 # RaccoonStudio
-Testing (BEM/flex)
+Testing (BEM)
 https://orcraccoon.github.io/RaccoonStudio/
